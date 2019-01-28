@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="02_layout.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<style>
+body{
+    margin: 0px;
+}
+.bg{
+    background-image:url('../images/01.jpg');
+    margin: 0px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    
+}
+.gg{
+    height:600px;
+}
+.ft{
+    margin-bottom: 50px
+}
+hr{
+    margin-bottom: 50px
+}
+</style>
+</head>
+<body>
+  
+    <div class="navbar sticky-top d-flex flex-column flex-md-row align-items-center p-3 px-md-4  bg-white border-bottom shadow-sm">
+      <h5 class="my-0 mr-md-auto font-weight-normal">영화추천시스템</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Home</a>
+        <a class="p-2 text-dark" href="#">친구평점 보러가기</a>
+        <a class="p-2 text-dark" href="#">Log in</a>
+      </nav>
+      
+    </div>
+    <Header class="bg">
+        <h1 class="gg d-flex justify-content-center align-items-center text-white">영화추천</h1>
+    </Header>
+
+    <h1 class="d-flex justify-content-center">영화목록</h1>
+    <hr align="center" style="border: solid 5px orange; width: 20%;">
+    
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card mt-3 mb-3" style="width: 18rem;">
+              <img src="../images/nom.jpg" class="card-img-top" alt="내안의그놈">
+              <div class="card-body">
+                <h4 class="card-title" style="font-family: 'Sunflower';">내안의 그놈<button type="button" class="btn btn-dark">8.69</button></h4>
+                <hr style="border:solid 2px gray;">
+                <p class="card-text" style="font-family: 'Sunflower';">판타지</p>
+                <p class="card-text" style="font-family: 'Sunflower';">개봉일 : 2019.01.09.</p>
+                <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=164172" style="font-family: 'Sunflower';" class="btn btn-success">영화정보 보러가기</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card mt-3 mb-3" style="width: 18rem;">
+              <img src="../images/mal.jpg" class="card-img-top" alt="말모이">
+              <div class="card-body">
+                <h4 class="card-title" style="font-family: 'Sunflower';">말모이<button type="button" class="btn btn-info">9.04</button></h4>
+                <hr style="border:solid 2px gray;">
+                <p class="card-text" style="font-family: 'Sunflower';">드라마</p>
+                <p class="card-text" style="font-family: 'Sunflower';">개봉일 : 2019.01.09.</p>
+                <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=167699" style="font-family: 'Sunflower';"  class="btn btn-success">영화정보 보러가기</a>
+              </div>
+            </div>
+        </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card mt-3 mb-3" style="width: 18rem;">
+              <img src="../images/gla.jpg" class="card-img-top" alt="글래스">
+              <div class="card-body">
+                <h4 class="card-title" style="font-family: 'Sunflower';">글래스<button type="button" class="btn btn-dark">7.69</button></h4>
+                <hr style="border:solid 2px gray;">
+                <p class="card-text" style="font-family: 'Sunflower';">드라마</p>
+                <p class="card-text" style="font-family: 'Sunflower';">개봉일 : 2019.01.17.</p>
+                <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=163826" style="font-family: 'Sunflower';" class="btn btn-success">영화정보 보러가기</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+             <div class="card mt-3 mb-3" style="width: 18rem;">
+                  <img src="../images/lal.jpg" class="card-img-top" alt="랄프">
+                  <div class="card-body">
+                    <h4 class="card-title" style="font-family: 'Sunflower';">주먹왕 랄프<button type="button" class="btn btn-dark">8.76</button></h4>
+                    <hr style="border:solid 2px gray;">
+                    <p class="card-text" style="font-family: 'Sunflower';">애니메이션</p>
+                    <p class="card-text" style="font-family: 'Sunflower';">개봉일 : 2019.01.03.</p>
+                    <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=152632" style="font-family: 'Sunflower';" class="btn btn-success">영화정보 보러가기</a>
+                  </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+             <div class="card mt-3 mb-3" style="width: 18rem;">
+              <img src="../images/aqu.jpg" class="card-img-top" alt="아쿠아맨">
+              <div class="card-body">
+                <h4 class="card-title" style="font-family: 'Sunflower';">아쿠아맨<button type="button" class="btn btn-dark">8.39</button></h4>
+                <hr style="border:solid 2px gray;">
+                <p class="card-text" style="font-family: 'Sunflower';">액션</p>
+                <p class="card-text" style="font-family: 'Sunflower';">개봉일 : 2018.12.19.</p>
+                <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=151153" style="font-family: 'Sunflower';" class="btn btn-success">영화정보 보러가기</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+         <div class="card mt-3 mb-3" style="width: 18rem;">
+              <img src="../images/dog.jpg" class="card-img-top" alt="언더독">
+              <div class="card-body">
+                <h4 class="card-title" style="font-family: 'Sunflower';">언더독<button type="button" class="btn btn-info">9.49</button></h4>
+                <hr style="border:solid 2px gray;">
+                <p class="card-text" style="font-family: 'Sunflower';">애니메이션</p>
+                <p class="card-text" style="font-family: 'Sunflower';">개봉일 : 2019.01.16.</p>
+                <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=144318" style="font-family: 'Sunflower';" class="btn btn-success">영화정보 보러가기</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="modal fade" id="movie-1-modal" tabindex="-1" role="dialog" aria-labelledby="movie-1-modal" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="movie-1-modal"  style="font-family: 'Sunflower';">내안의 그놈, The Dude in Me</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <div class="inner-image">
+                <img class="inner-image" src="../images/nom.jpg" alt="내안의그놈">
+              </div>
+            <h3  style="font-family: 'Sunflower';">15세이상관람가</h3>
+            <p  style="font-family: 'Sunflower';">누적 관람수 : 1,597,263</p>
+            <hr style="border:solid 1px gray;">
+            <p  style="font-family: 'Sunflower';">나 너니? 너 나니??제대로 바뀐 아재와 고딩, 웃음 대환장 파티!</p>
+            <p  style="font-family: 'Sunflower';">엘리트 아재 판수(박성웅)를 우연히 옥상에서 떨어진 고등학생 동현(진영)이 덮치면서 제대로 바뀐다.게다가 판수는 동현의 몸으로 첫사랑 미선(라미란)과 존재도 몰랐던 딸 현정(이수민)을 만나게 되는데… 대유잼의 향연, 넌 이미 웃고 있다!</p>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div
+    
+    
+    
+    
+    
+    
+    
+    <Footer>
+        <span class="d-block p-2 bg-dark text-white">KOO</span>
+        <a href="#top">TOP</a>
+    </Footer>
+    
+        
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
